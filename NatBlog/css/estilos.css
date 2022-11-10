@@ -1,0 +1,160 @@
+ *{
+    margin: 0;
+    padding: 0;
+ } 
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    color:#D71212;
+    padding: 5px;
+}
+
+h3{
+    color: #142615;
+    background: #497336;
+    padding: 5px;
+}
+
+h4{
+    background: #8fb73b;
+    padding: 5px;
+}
+
+hr{
+    border: 1px solid #F5D700;
+    text-align: center;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+a:link{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+a:visited{
+    color: #f2f2f2;
+}
+
+#area-cabeçalho a:link{
+    color: #f2f2f2;
+    margin: 5px;
+}
+
+#area-cabeçalho a:hover{
+    color: #3a5905;
+    padding: 8px;
+}
+
+#area-cabeçalho a:visited{
+    color: #3a5905
+}
+
+#area-cabeçalho{
+    background-color: #74a60a;
+    text-align: center;
+    padding: 20px;
+}
+
+#area-logo{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 80%;
+    margin: 5px auto;
+    padding: 15px;
+    float: center;
+}
+
+#area-postagem a:hover{
+    color: #000;
+    padding: 10px;
+}
+
+#area-postagem{
+    width: 70%;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: left;
+    background: #f2f2f2;
+   margin: 20px;
+}
+
+#area-lateral img{
+    float: center;
+    padding: auto;
+}
+
+#area-lateral a:link{
+    color: #000;
+    text-decoration: none;
+    margin: 3px;
+}
+
+#area-lateral a:hover{
+    color: #000;
+    padding: 2px;
+}
+
+#area-lateral a:visited{
+    color: #000;
+}
+
+
+#menu-lateral a:link{
+    color: #000;
+}
+
+#menu-lateral a:hover{
+    background-color: #74A60A;
+	padding: 1px;
+    color: #000;
+}
+
+#area-rodape{
+    background-color: #74a60a;
+    text-align: center;
+    padding: 15px;
+    color: #f2f2f2;
+    clear: both;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #8fb73b;
+}
+
+.postagem img{
+    float: center;
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.postagem-lateral a:link{
+    color: #000;
+}
+
+.postagem-lateral{
+    font-size: 0.9em;
+    padding: 5px;
+    border-bottom: 2px dotted #000;
+}
